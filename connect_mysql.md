@@ -13,4 +13,4 @@ con <- dbConnect(RMySQL::MySQL(),
 dbListTables(con)
 
 # Import the specific table from dbname
-dbReadTables(con,"specific_table)
+dbReadTables(con,"specific_table")
